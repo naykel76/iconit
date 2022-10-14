@@ -6,16 +6,40 @@
 
 # Iconit
 
-Icon components for NAYKEL Laravel applications
+
+https://naykel.site/docs/iconit/introduction
 
 
+This is a guide only and may not work perfectly!
 
+## Adding New Icons
 
+**For consistency:**
 
-## Command Line
+- icons should be saved 20 high
+- icons should not have any fill color
 
-### change extension from `svg` to `blade.php`
+##### Step 1. Save SVG files in `resources/views/components`.
+
+##### Step 2. change extension from `svg` to `blade.php`
+
+You can batch update the file extensions by running the following command in the `resources/views/components` directory.
 
 ```bash
 for i in *.svg; do mv -- "$i" "${i%.svg}.blade.php"; done
 ```
+
+##### Step 3. Remove fill color
+
+Using the editor find and replace, remove the fill colour to allow default styles to work.
+
+
+##### Step 4. Add $attributes
+
+Search for
+
+    <svg {{ $attributes }} xmlns="http://www.w3.org/2000/svg"
+
+Replace with
+
+    <svg {{ $attributes }} xmlns="http://www.w3.org/2000/svg"

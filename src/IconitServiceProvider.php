@@ -20,8 +20,6 @@ class IconitServiceProvider extends ServiceProvider
      */
     protected function configureComponents()
     {
-
-        // $this->registerComponent('naykel');
         $this->createComponentsFromDirectory(); // base directory
         $this->createComponentsFromDirectory('payment');
         $this->createComponentsFromDirectory('logos');
