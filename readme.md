@@ -38,7 +38,7 @@ Using the editor find and replace, remove the fill colour to allow default style
 
 Search for
 
-    <svg {{ $attributes }} xmlns="http://www.w3.org/2000/svg"
+    <svg xmlns="http://www.w3.org/2000/svg"
 
 Replace with
 
