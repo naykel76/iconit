@@ -58,7 +58,7 @@ class IconitServiceProvider extends ServiceProvider
      * @param  string  $prefix (prefix.component)
      * @return void
      */
-    protected function registerComponent(string $component, string $dir = '', string $prefix = 'iconit.')
+    protected function registerComponent(string $component, string $dir = '', string $prefix = 'iconit-')
     {
         if (!empty($dir)) {
             $dir = ".$dir";
