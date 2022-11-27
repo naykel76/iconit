@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.1
+- add icons
+
 ## 0.1.0
 - change component prefix to dash
 
