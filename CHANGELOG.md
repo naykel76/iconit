@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.3
+- add icons
+
 ## 0.1.2
 - add icons
 
