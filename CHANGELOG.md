@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.6
+- add icons
+
+## 0.1.5
+- fix type
+
 ## 0.1.4
 - add icons
 -
